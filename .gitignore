@@ -1,0 +1,27 @@
+# Виртуальные окружения
+.venv*/
+venv*/
+
+# Клон оригинального кода openai/grok (ставится отдельно, см. RUN_AS_IS.md)
+grok/
+
+# Результаты прогонов: логи, метрики, чекпоинты, графики
+runs/
+data/
+lightning_logs/
+*.ckpt
+*.pt
+*.png
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Системные файлы
+.DS_Store
+.idea/
+.vscode/
